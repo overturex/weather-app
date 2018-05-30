@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+}
+
+input, button{
+  border: 3px solid black;
+  padding: 12px;
+  font-size: 14px;
+  text-transform: lowercase;
+
+  &:focus{
+    outline: none;
+  }
+}
+
+input{
+  font-style: italic;
+  color: black;
+  text-align: center;
+}
+
+.btn{
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  background: $GRAY;
+  color: gray;
+
+  &:hover{
+    background: black;
+    color: white;
+    cursor: pointer;
+  }
+
+  &.btn-white{
+    background: white;
+    color: black;
+  }
+}
+
+.container{
+  width: 500px;
+  margin: 0 auto;
+}
+
+p{
+  font-size: 20px;
+}

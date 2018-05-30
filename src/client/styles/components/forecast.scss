@@ -1,0 +1,18 @@
+.forecast{
+
+  .forecast-days{
+    display: flex;
+
+    .forecast-day{
+      width: 20%;
+      border: 1px solid $GRAY;
+      margin-right: 5px;
+      text-align: center;
+      padding: 10px;
+
+      &:last-child{
+        margin-right: 0;
+      }
+    }
+  }
+}
